@@ -23,8 +23,8 @@ eac.prototype.add = function (dice) {
 
 	//Regular case: add up all core values
     let coreSum = 0;
-    for (let i = 0; i < cores.length; i++) {
-        coreSum += cores[i];
+    for (let index = 0; index < cores.length; index++) {
+        coreSum += cores[index];
     }
 
     //Final calculation depends on how big the core sum is
